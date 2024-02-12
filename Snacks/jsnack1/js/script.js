@@ -36,4 +36,5 @@ console.log(parola);
 parola = parola.join("");
 console.log(parola);
 
-
+//stampo a schermo il risultato
+document.getElementById("risultato").innerHTML = `${parola}`;
