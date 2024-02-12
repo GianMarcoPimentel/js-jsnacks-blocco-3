@@ -31,4 +31,9 @@ console.log(parola);
 // per invertire i valori posso usare il metodo .reverse()
 parola = parola.reverse("");
 console.log(parola);
+// ora voglio che l'array ritorni ad essere una stringa
+// per fare ciò uso il metodo .join()
+parola = parola.join("");
+console.log(parola);
+
 
