@@ -15,6 +15,7 @@ Es:
 */
 const arrayNumeri = [0, 1, 2, 3, 4, 5, 6]
 
+//creo una funzione con i 3 parametri richiesti
 function shortArray(arrayNumeri, posizioneMin, posizioneMax){
     const arrayA = [];
     for( let i = posizioneMin; i < posizioneMax ; i++){
