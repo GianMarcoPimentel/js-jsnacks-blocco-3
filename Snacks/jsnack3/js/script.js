@@ -27,3 +27,7 @@ function shortArray(arrayNumeri, posizioneMin, posizioneMax){
     return arrayA;
 
 }
+
+//ore posso richaimare la mia function quando voglio ed entro i limiti che voglio rispettare
+//stampo a schermo
+document.getElementById("risultato").innerHTML = `Il mio array di valori compresi può essere per esempio: ${shortArray(arrayNumeri,2,5)}`;
