@@ -14,6 +14,16 @@ const array2 = ["a", "b", "c"];
 // [array1[0],array2[0],array1[1],array2[1],array1[2],array2[2]];
 const array3 = [];
 
+//inizio un ciclo for con la stessa variabile di iterazione per i due array
+
+for( let i = 0; i<array1.length && i<array2.length; i++){
+   //pusho nel'array3 gli elementni ordinati seocndo i dell'array1
+    array3.push(array1[i]);
+    //pusho nel'array3 gli elementni ordinati seocndo i dell'array1
+    array3.push(array2[i]);
+
+}
+
 
 
 
