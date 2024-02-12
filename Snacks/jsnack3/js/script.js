@@ -17,7 +17,10 @@ const arrayNumeri = [0, 1, 2, 3, 4, 5, 6]
 
 //creo una funzione con i 3 parametri richiesti
 function shortArray(arrayNumeri, posizioneMin, posizioneMax){
+    //memorizzo un array vuoto
     const arrayA = [];
+    //inizializzo il ciclo for con i che parte dalla posizioneMin earriva alla posizioneMax
+    //e poi piusha nell'array vuoto precedentement salvato i valori compresi
     for( let i = posizioneMin; i < posizioneMax ; i++){
         arrayA.push(arrayNumeri[i]);
     }
