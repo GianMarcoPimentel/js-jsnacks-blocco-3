@@ -14,4 +14,5 @@ for(let i =0; i<parola.length; i++){
     console.log(parola);
 }
 
+// stampo su schermo
 document.getElementById("risultato").innerHTML = `L'ordine alfabetico della parola è : ${parola}`;
