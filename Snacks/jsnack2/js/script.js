@@ -29,7 +29,17 @@ console.log(array3);
 
 document.getElementById("risultato").innerHTML = `L'array trovato è aray3 = [${array3}]`;
 
+//se volessi invertire l'ordine degli array1 e array2 nell'array3
+//mi basterebbe cambiare l'ordine di push all'interno del ciclo for
+/* 
+for( let i = 0; i<array1.length && i<array2.length; i++){
+   //pusho nel'array3 gli elementni ordinati seocndo i dell'array1
+    array3.push(array2[i]);
+    //pusho nel'array3 gli elementni ordinati seocndo i dell'array1
+    array3.push(array1[i]);
 
+}
+*/
 
 
 
