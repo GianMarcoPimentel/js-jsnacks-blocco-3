@@ -29,5 +29,6 @@ parola = parola.split("")
 console.log(parola);
 // questa stringa è diventata un array col metodo .split()
 // per invertire i valori posso usare il metodo .reverse()
-
+parola = parola.reverse("");
+console.log(parola);
 
