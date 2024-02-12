@@ -3,15 +3,15 @@ Snack 4 (bonus):
 Scrivi una funzione  che accetti una stringa come parametro e restituisca la stringa con i caratteri ordinati alfabeticamente
 Es: riordina("webmaster") :freccia_destra: "abeemrstw"
 */
-let parola = "ciao";
-console.log(parola);
-let ordine = [];
+let parola = prompt("Inserisci una parola");
+
 parola = parola.split("");
 console.log(parola);
-parola = parola.sort();
-console.log(parola);
-/* for( let i = 0; i < parola.length; i++){
-    parola[i].sort();
-} */
+
+//creo un ciclo for per ordinare le mie lettere che compongono la parola 
+for(let i =0; i<parola.length; i++){
+    parola = parola.sort();
+    console.log(parola);
+}
 
 document.getElementById("risultato").innerHTML = `L'ordine alfabetico della parola è : ${parola}`;
