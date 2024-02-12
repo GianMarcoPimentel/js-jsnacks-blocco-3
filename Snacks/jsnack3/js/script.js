@@ -13,7 +13,13 @@ Es:
 - Nel nostro caso, se la chiamassimo così tagliaArray(arrayNumeri, 2, 4) ci restituirebbe un array così composto:
 [2, 3, 4]
 */
-const arrayNumeri = [0, 1, 2, 3, 4, 5, 6]]
-function (arrayNumeri, posizioneMin, posizioneMax){
-    
+const arrayNumeri = [0, 1, 2, 3, 4, 5, 6]
+
+function shortArray(arrayNumeri, posizioneMin, posizioneMax){
+    const arrayA = [];
+    for( let i = posizioneMin; i < posizioneMax ; i++){
+        arrayA.push(arrayNumeri[i]);
+    }
+    return arrayA;
+
 }
