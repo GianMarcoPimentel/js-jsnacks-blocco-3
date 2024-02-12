@@ -18,3 +18,12 @@ console.log(parola);
 
 //stampo a schermo il risultato
 document.getElementById("risultato").innerHTML = `${parola}`;
+
+/* for( let i = 0; i<array1.length && i<array2.length; i++){
+   
+    array3.push(array1[i]);
+    array3.push(array2[i]);
+
+}
+
+console.log(array3); */
