@@ -1,5 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 a{
     text-decoration: none;
-    padding: 50px;
-    margin-top: 50px;
+    margin: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: brown;
+    border-radius: 30px;
 }
+a:hover{
+    transform: scale(1.5);
+}
+
