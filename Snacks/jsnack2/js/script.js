@@ -22,8 +22,7 @@ for( let i = 0; i<array1.length && i<array2.length; i++){
     //pusho nel'array3 gli elementni ordinati seocndo i dell'array1
     array3.push(array2[i]);
 
-}
-
+} 
 console.log(array3);
 //stampo a schemro il risulatto del mio array
 
