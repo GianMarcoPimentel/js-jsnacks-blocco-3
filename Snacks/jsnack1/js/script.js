@@ -3,8 +3,8 @@ Snack 1:
 Scrivi una funzione che accetti una stringa come argomento e la restituisca girata (es. "Ciao" -> "oaiC")
 */
 
-// Inserisco una parola
-let parola = "ciao";
+// Faccio inserire una parola all'utente
+let parola = prompt("Inserisci una parola");
 parola = parola.split("")
 console.log(parola);
 // questa stringa è diventata un array col metodo .split()
