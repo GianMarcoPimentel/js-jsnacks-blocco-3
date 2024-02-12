@@ -26,7 +26,7 @@ for( let i = 0; i<array1.length && i<array2.length; i++){
 console.log(array3);
 //stampo a schemro il risulatto del mio array
 
-document.getElementById("risultato").innerHTML = `L'array trovato è aray3 = [${array3}]`;
+document.getElementById("risultato").innerHTML = `L'array trovato è array3 = [${array3}]`;
 
 //se volessi invertire l'ordine degli array1 e array2 nell'array3
 //mi basterebbe cambiare l'ordine di push all'interno del ciclo for
