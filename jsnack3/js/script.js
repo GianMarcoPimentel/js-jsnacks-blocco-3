@@ -21,7 +21,7 @@ function shortArray(arrayNumeri, posizioneMin, posizioneMax){
     const arrayA = [];
     //inizializzo il ciclo for con i che parte dalla posizioneMin earriva alla posizioneMax
     //e poi piusha nell'array vuoto precedentement salvato i valori compresi
-    for( let i = posizioneMin; i < posizioneMax ; i++){
+    for( let i = posizioneMin; i <= posizioneMax ; i++){
         arrayA.push(arrayNumeri[i]);
     }
     return arrayA;
@@ -31,3 +31,9 @@ function shortArray(arrayNumeri, posizioneMin, posizioneMax){
 //ore posso richaimare la mia function quando voglio ed entro i limiti che voglio rispettare
 //stampo a schermo
 document.getElementById("risultato").innerHTML = `Il mio array di valori compresi può essere per esempio: ${shortArray(arrayNumeri,2,5)}`;
+
+
+/* function shortArray(arrayNumeri, posizioneMin, posizioneMax){
+
+    return arrayNumeri.slice(posizioneMin, posizioneMax +1)
+} */

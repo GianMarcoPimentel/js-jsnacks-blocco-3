@@ -19,3 +19,39 @@ console.log(parola);
 //stampo a schermo il risultato
 document.getElementById("risultato").innerHTML = ` parola ${parola}`;
 
+
+
+document.querySelector("#button").addEventListener("click", function() {
+    const text = document.querySelector("#text").ariaValueMax;
+
+    document.querySelector("#risultato").innerText = reverseString(text);
+})
+
+
+function reverse(string) {
+
+    //metodi delle stringhe
+    const divideStringInArray = string.split("");
+
+    const reverseStringArray = divideStringInArray.reverse();
+
+    const joinedString = reverseStringArray.join("");
+
+    return string;
+
+    // Oppure si scrive cosi : 
+    // const finalString = stringToModify.split("").reverse().join("")
+
+
+    //ancora meglio
+    // return stringToModify.split("").reverse().join("")
+
+    //con il ciclo for
+//  let newString = "";
+//  for(let i = stringToModify - 1; i >= 0; i++ ){
+
+//  newString += StringToModify[i];
+
+//  }
+//  return newString
+}

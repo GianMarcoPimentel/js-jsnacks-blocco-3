@@ -16,3 +16,19 @@ for(let i =0; i<parola.length; i++){
 
 // stampo su schermo
 document.getElementById("risultato").innerHTML = `L'ordine alfabetico della parola è : ${parola}`;
+
+
+document.querySelector("#button").addEventListener("click", function(){
+
+    const inputText = docuemnt.querySelector("#text").value;
+
+    reorder(inputText);
+})
+
+//USARE UNA FUNZIONE
+
+/* function reorder(string){
+    const parolaArray = parola.split(" ");
+    array.sort();
+    return array;
+} */
