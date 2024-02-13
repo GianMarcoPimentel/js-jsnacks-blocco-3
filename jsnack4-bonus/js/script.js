@@ -18,17 +18,24 @@ for(let i =0; i<parola.length; i++){
 document.getElementById("risultato").innerHTML = `L'ordine alfabetico della parola è : ${parola}`;
 
 
+
+
+//USARE UNA FUNZIONE
+/* 
 document.querySelector("#button").addEventListener("click", function(){
 
     const inputText = docuemnt.querySelector("#text").value;
 
-    reorder(inputText);
+    
+    docuemnt.querySelector("risultato").innerText = reorder(inputText);
 })
 
-//USARE UNA FUNZIONE
 
-/* function reorder(string){
-    const parolaArray = parola.split(" ");
-    array.sort();
-    return array;
+
+
+
+function reorder(string){
+    const stringArray = string.split("");
+    stringArray.sort();
+    return stringArray.join("");
 } */
